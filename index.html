@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SZ CHAT - Realtime Node Socket.io Chat App</title>
+	<!-- defer:-script background mein load hoti hai and 
+	DOM load ho kar run hoti hai to hum uppar bhi use kr sakte hai defer use krke.. -->
+	<script defer type="text/javascript" src="http://localhost:8000/socket.io/socket.io.js"></script>
+	<script defer type="text/javascript" src="js/client.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav>
+		<img src="logo.png" class="logo">
+		<h1>Welcome to STATIC Chat App</h1>
+	</nav>
+	<div class="container">
+		<!-- <div class="message right">hi poo</div>
+		<div class="message left">heyy suu</div> -->
+	</div>
+
+	<div class="send">
+		<form action="#" id="send-container">
+			<input type="text" name="messageInp" id="messageInp">
+			<button class="btn" type="submit">Send</button>
+		</form>
+	</div>
+</body>
+</html>
